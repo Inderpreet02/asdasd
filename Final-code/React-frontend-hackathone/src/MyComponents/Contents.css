@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Oswald&display=swap');
+
+
+
+.main-con{
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg");
+    background-color:#B6FFCE; */
+    background-image: url("https://i.pinimg.com/originals/ab/4b/cb/ab4bcbbd5be3d5e4eaf322d3cb74d773.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.content{
+    
+    padding:0 3rem 0 3rem;
+    display: flex;
+    height:40vh;
+    margin-bottom: 5rem; 
+    /* margin-top:4rem;
+     */
+    font-family: 'Oswald', sans-serif;
+    font-size: bold;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    font-size:200px;
+    align-items: center;
+    text-align: center;
+    width:100vh;
+    height:30px;
+    margin-top:4rem;
+    margin-left:300px;
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: bold;
+}
+
+.slider{
+    height:300px;
+    margin-top: -50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border:2px solid black;
+    padding:0.5rem 3rem 1rem 3rem;
+    border-radius: 14px;
+    box-shadow:5px 10px #888888 ;
+    background-color: #E78EA9;
+    font-style: italic;
+    font-size:20px;
+}
+
+ul{
+    margin: 0;
+    text-align: left;
+}
+
+h3{
+    transition: 0.7s;
+}
+h3:hover{
+    
+    color:#FF6B6B;
+    font-size: 30px;
+    text-shadow: 0 0 10px #FF6B6B,
+                 0 0 20px #FF6B6B,
+                 0 0 40px #FF6B6B,
+                 0 0 80px #FF6B6B,
+                 0 0 120px #FF6B6B,
+                 0 0 160px #FF6B6B,
+}
+
+.btn1{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    border-radius: 100%;
+    background-color: teal;
+    border: 1px solid #111;
+    padding: 10px;
+}
